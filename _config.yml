@@ -145,7 +145,7 @@ pwa:
     deny_paths:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
-paginate: 1
+paginate: 30 
 
 # The base URL of your site
 baseurl: ""
@@ -225,4 +225,10 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+
+languages: ["en", "de"] # Languages you want to support
+default_lang: "en" # Default language of the content
+exclude_from_localization: ['javascript', 'assets'] # Folders to exclude from multilingual functionality
+parallel_localization: true # Enables parallel processing for faster builds, optional
 
