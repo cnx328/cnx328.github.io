@@ -14,9 +14,9 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: cnx328  # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline:  # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
@@ -96,7 +96,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: /assets/img/avatar.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -227,7 +227,7 @@ jekyll-archives:
     category: /categories/:name/
 
 
-languages: ["en", "de"] # Languages you want to support
+languages: ["en"] # Languages you want to support
 default_lang: "en" # Default language of the content
 exclude_from_localization: ['javascript', 'assets'] # Folders to exclude from multilingual functionality
 parallel_localization: true # Enables parallel processing for faster builds, optional
